@@ -1,0 +1,58 @@
+/* BUBBLE PLASTIC HORIZONTAL MENU */
+
+.bubplastic.horizontal {	
+	width: 900px;
+	height: 27px;
+	margin: 0;
+	padding: 0;	
+	background: #000000 url(../img/bg-bubplastic.png) top left repeat-x;
+}
+.bubplastic.horizontal ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.bubplastic.horizontal ul li {
+	float: left;
+	margin: 0;
+	padding: 0;	
+	background: #000000 url(../img/bg-bubplastic.png) top left repeat-x;
+}
+
+.bubplastic.horizontal ul li a {
+	display: block;
+	height: 27px;
+	padding-left: 35px;
+	float: left;
+	text-transform: uppercase;	
+	font-family: Tahoma, sans-serif;
+	font-size: 70%;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+
+.bubplastic.horizontal ul li a span.menu_ar {
+	display: block;
+	float: left;
+	height: 22px;
+	padding-top: 5px;
+	padding-right: 35px;	
+	background: transparent url(../Imagens/bg-bubplastic-button.png) top right no-repeat;
+	cursor: pointer;
+}
+/* END BUBBLE PLASTIC HORIZONTAL MENU */
+
+
+.bubplastic.orange ul li a:hover,
+.bubplastic.orange ul li.highlight a {
+	background: transparent url(../img/bg-bubplastic-h-orange.png) top left no-repeat;
+}
+
+.bubplastic.horizontal ul li li a{
+	display: none;
+}
+/*.bubplastic.orange ul li a:hover span.menu_ar,
+.bubplastic.orange ul li.highlight a span.menu_ar {
+	background: transparent url(../Imagens/bg-bubplastic-h-orange.png) top right no-repeat;
+}*/
